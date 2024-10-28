@@ -1,0 +1,108 @@
+/* General Color Theme */
+:root {
+  --primary-color: #95a78d; /* Green-gray */
+  --secondary-color: #c8c6af; /* Beige-gray */
+  --accent-color: #d7d0c8; /* Light taupe */
+  --text-color: #333333; /* Dark gray for contrast */
+  --background-color: #f9f9f9; /* Light background */
+}
+
+/* Body and Background */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+/* Logo Styling */
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+  color: var(--primary-color);
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+  color: var(--secondary-color); /* Change color on hover */
+}
+
+/* Header */
+header {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+/* Navigation */
+.nav-item .nav-link {
+  color: var(--primary-color);
+}
+.nav-item .nav-link:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+/* Main Content */
+main {
+  background-color: var(--accent-color);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Blog Posts */
+.blog-post {
+  margin-bottom: 4rem;
+  background-color: var(--background-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2, .blog-post h3 {
+  color: var(--primary-color);
+}
+
+.blog-post-meta {
+  color: #727272;
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+  color: var(--primary-color);
+}
+
+.blog-pagination .btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+.blog-pagination .btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 2rem 0;
+  border-top: 2px solid var(--primary-color);
+}
+
+footer a {
+  color: var(--primary-color);
+}
+footer a:hover {
+  color: var(--accent-color);
+}

@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Hafsah Iqbal">
+    <meta name="author" content="Hafsah Iqbal">
+    <title>Hafsah Iqbal's IT Portfolio</title>
+
+    <!-- Bootstrap CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+      /* Color Theme */
+      :root {
+        --primary-color: #95a78d; /* Green-gray */
+        --secondary-color: #c8c6af; /* Beige-gray */
+        --accent-color: #d7d0c8; /* Light taupe */
+        --text-color: #333333; /* Dark gray for contrast */
+        --background-color: #f9f9f9; /* Light background */
+      }
+
+      /* General Body and Background */
+      body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        font-family: Arial, sans-serif;
+      }
+
+      /* Logo Styling */
+      .blog-header-logo {
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+        font-size: 2.25rem;
+        color: var(--primary-color);
+      }
+
+      .blog-header-logo:hover {
+        text-decoration: none;
+        color: var(--secondary-color); /* Change color on hover */
+      }
+
+      /* Header */
+      header {
+        background-color: var(--accent-color);
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--secondary-color);
+      }
+
+      /* Navigation */
+      .nav-item .nav-link {
+        color: var(--primary-color);
+      }
+      .nav-item .nav-link:hover {
+        color: var(--secondary-color);
+        text-decoration: underline;
+      }
+
+      /* Buttons */
+      .btn {
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+      }
+      .btn:hover {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+      }
+
+      /* Main Content */
+      main {
+        background-color: var(--accent-color);
+        padding: 2rem;
+        border-radius: 8px;
+      }
+
+      /* Blog Posts */
+      .blog-post {
+        margin-bottom: 4rem;
+        background-color: var(--background-color);
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .blog-post h2, .blog-post h3 {
+        color: var(--primary-color);
+      }
+
+      .blog-post-meta {
+        color: #727272;
+      }
+
+      /* Pagination */
+      .blog-pagination {
+        margin-bottom: 4rem;
+        color: var(--primary-color);
+      }
+
+      .blog-pagination .btn {
+        background-color: var(--primary-color);
+        color: white;
+      }
+      .blog-pagination .btn:hover {
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+      }
+
+      /* Footer */
+      footer {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        padding: 2rem 0;
+        border-top: 2px solid var(--primary-color);
+      }
+
+      footer a {
+        color: var(--primary-color);
+      }
+      footer a:hover {
+        color: var(--accent-color);
+      }
+    </style>
+</head>
+<body>
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href="#">Subscribe</a>
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Hafsah Iqbal's IT Portfolio</a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-3 border-bottom">
+    <nav class="nav nav-underline justify-content-between">
+      <a class="nav-item nav-link link-body-emphasis active" href="#">Home</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#">Projects</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#">Research</a>
+      <a class="nav-item nav-link link-body-emphasis" href="#">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<main class="container">
+  <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div class="col-lg-6 px-0">
+      <h1 class="display-4 fst-italic">Welcome to My IT Portfolio</h1>
+      <p class="lead my-3">Explore my projects, research, and journey in Information Technology. From mobile app development to machine learning research, I am passionate about delivering practical solutions and innovations in the tech world.</p>
+      <p class="lead mb-0"><a href="#projects" class="text-body-emphasis fw-bold">Explore my work...</a></p>
+    </div>
+  </div>
+
+  <div id="projects" class="row mb-2">
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary-emphasis">Project</strong>
+          <h3 class="mb-0">EatExperts App</h3>
+          <div class="mb-1 text-body-secondary">Summer 2024</div>
+          <p class="card-text mb-auto">A mobile application focused on meal delivery and customization, targeting users who prioritize convenience and healthy eating options, including vegan and Keto-friendly meals.</p>
+          <a href="https://github.com/DavidOk14/EatExperts" class="icon-link gap-1 icon-link-hover stretched-link">Learn more on GitHub</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" role="img" aria-label="Project Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#55595c"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success-emphasis">Project</strong>
+          <h3 class="mb-0">Link-Commerce Website</h3>
+          <div class="mb-1 text-body-secondary">Summer 2024</div>
+          <p class="mb-auto">An e-commerce website developed to streamline online shopping with user-friendly navigation and a focus on enhancing the customer experience.</p>
+          <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">See project details</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <svg class="bd-placeholder-img" width="200" height="250" role="img" aria-label="Project Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#55595c"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="mt-5">
+    <h2 class="text-center mb-4" style="color: var(--primary-color);">Contact Me</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Your Email">
+      </div>
+      <div class="mb-3">
+        <label for="subject" class="form-label">Subject</label>
+        <input type="text" class="form-control" id="subject" placeholder="Subject">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+      </div>
+      <button type="submit" class="btn" style="background-color: var(--primary-color); color: white;">Send Message</button>
+    </form>
+  </section>
+
+</main>
+
+<footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+  <p>Created by Hafsah Iqbal. Powered by <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+  <p class="mb-0">
+    <a href="#">Back to top</a>
+  </p>
+</footer>
+
+<!-- Bootstrap JS from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
